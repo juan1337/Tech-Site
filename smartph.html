@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Galeria">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="SCSS/style.css">
+    <title>Galeria</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">Bueno Bonito y Barato</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><button type="button" class="btn btn-outline-light itemmenu"><i class="fas fa-home topicons"></i>Inicio</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reviews.html"><button type="button" class="btn btn-outline-light itemmenu"><i class="fas fa-video topicons"></i>Reviews</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Inf.html"><button type="button" class="btn btn-outline-light itemmenu"><i class="fas fa-book topicons"></i>Informacion</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="smartph.html"><button type="button" class="btn btn-outline-light itemmenu"><i class="fas fa-images topicons"></i>Galeria</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="notis.html"><button type="button" class="btn btn-outline-light itemmenu"><i class="far fa-newspaper topicons"></i>Noticias</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    
+    <section class="galeria">
+        <h1 class="gl">Galeria de imagenes</h1>
+        <hr>
+    </section>
+    <div class="fts">
+        <a href="#f1"><img src="galeria/img1.jpg" alt=""></a>
+        <a href="#f2"><img src="galeria/img2.jpg" alt=""></a>
+        <a href="#f3"><img src="galeria/img3.jpg" alt=""></a>
+        <a href="#f4"><img src="galeria/img4.jpg" alt=""></a>
+        <a href="#f5"><img src="galeria/img5.jpg" alt=""></a>
+        <a href="#f6"><img src="galeria/img6.jpg" alt=""></a>
+    </div>
+
+    <article class="light-box" id=f1>
+        <a href="#f6" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="galeria/img1.jpg">
+        <a class="iphone" href="reviews.html"><button class="midb" type="button">Samsung Galaxy a52</button></a>
+        <a href="#f2" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id=f2>
+        <a href="#f1" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="galeria/img2.jpg">
+        <a class="iphone" href="reviews.html"><button class="midb" type="button">Iphone 12 Pro Max</button></a>
+        <a href="#f3" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id=f3>
+        <a href="#f2" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="galeria/img3.jpg">
+        <a class="iphone" href="reviews.html"><button class="midb" type="button">Asus ROG Phone 5</button></a>
+        <a href="#f4" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id=f4>
+        <a href="#f3" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="galeria/img4.jpg">
+        <a class="iphone" href="reviews.html"><button class="midb" type="button">Xiaomi Redmi Note 10 Pro</button></a>
+        <a href="#f5" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id=f5>
+        <a href="#f4" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="galeria/img5.jpg">
+        <a class="iphone" href="reviews.html"><button class="midb" type="button">One Plus Nord 2</button></a>
+        <a href="#f6" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id=f6>
+        <a href="#f5" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="galeria/img6.jpg">
+        <a class="iphone" href="reviews.html"><button class="midb" type="button">Motorola Edge</button></a>
+        <a href="#f1" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+</body>
+</html>
