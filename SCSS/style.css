@@ -65,49 +65,46 @@ body {
 }
 
 #press {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(17, 43, 48, 0.658)));
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(17, 43, 48, 0.658) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(17, 43, 48, 0.658)));
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(17, 43, 48, 0.658) 100%);
   text-align: center;
 }
 
 .presslogo {
-  width: 15%;
   padding: 20px 20px 20px 20px;
 }
 
 /*reviews*/
 .topcont {
-  color: #EEEEEE;
-  background-color: #334257;
-  line-height: 2rem;
-  padding-right: 40px;
-  padding-left: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-column-gap: 20px;
-          column-gap: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  color: #ffffff;
+  margin: 80px auto 80px auto;
+  padding: 100px 40px 100px 40px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
 }
 
-.imgcons {
-  width: 30%;
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .rvs {
-  color: #EEEEEE;
-  background-color: #476072;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .rvw {
   border-radius: 12px;
   border: none;
-  background-color: #548CA8;
+  background-color: #ffffff;
   margin-top: 20px;
   margin-left: 40px;
   margin-right: 40px;
@@ -271,16 +268,6 @@ hr {
 }
 
 /*Noticias*/
-@media screen and (min-width: 768px) {
-  .newscontainer {
-    display: -ms-grid;
-    display: grid;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
 .newscontainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -292,14 +279,9 @@ hr {
 }
 
 .social {
-  display: -ms-grid;
-  display: grid;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .sm {
